@@ -1,3 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-height: 90px;
+}
+
+header {
+    background-color: lavender;
+    text-align: center;
+
+    height: var(--header-height);
+}
+
+main {
+    width: 100vw;
+    height: calc(100vh - var(--header-height));
+}
+
 h1 {
     color: red;
+}
+
+.btn-group-create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 70%;
 }
