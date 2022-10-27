@@ -18,6 +18,8 @@ header {
 main {
     width: 100vw;
     height: calc(100vh - var(--header-height));
+
+    text-align: center;
 }
 
 h1 {
@@ -29,5 +31,10 @@ h1 {
     flex-direction: column;
     justify-content: center;
 
+    margin: 0 auto;
     width: 70%;
+}
+
+.btn-create-number {
+    height: 10vh;
 }
