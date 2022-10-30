@@ -8,11 +8,17 @@
     --header-height: 90px;
 }
 
+.flex-ctr-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
-    background-color: lavender;
-    text-align: center;
 
     height: var(--header-height);
+    
+    background-color: lavender;
 }
 
 main {
@@ -23,7 +29,20 @@ main {
 }
 
 h1 {
+    font-size: 3em;
     color: red;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.btn {
+    border-radius: 10px;
 }
 
 .btn-group-create {
@@ -33,8 +52,12 @@ h1 {
 
     margin: 0 auto;
     width: 70%;
+    padding: 20px;
 }
 
 .btn-create-number {
+    width: 60vw;
     height: 10vh;
+    margin: 10px auto;
+    font-size: 2em;
 }
