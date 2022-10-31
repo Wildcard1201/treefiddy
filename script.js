@@ -1,3 +1,5 @@
+// number of users on setup
+
 const userNumberButtons = document.querySelectorAll('.btn-create-number')
 let userNumber;
 function userNumberClick() {
@@ -8,3 +10,14 @@ userNumberButtons.forEach(e => {
     e.addEventListener('click', userNumberClick)
 
 })
+// start button
+
+const startButton = document.getElementById('start')
+startButton.addEventListener('click', start)
+function start() {
+    if(userNumber) {
+        console.log('Starting...')
+    } else {
+        console.log('Please select number of users then press Start again.')
+    }
+}

@@ -62,3 +62,14 @@ p {
     font-size: 2em;
     background-color: lavender;
 }
+
+.btn-create-number:focus {
+    background-color: aqua;
+}
+
+#start {
+    height: 7vh;
+    width: 40vw;
+    margin: 10px auto;
+    font-size: 2em;
+}
