@@ -73,3 +73,7 @@ p {
     margin: 10px auto;
     font-size: 2em;
 }
+
+.tracker {
+    visibility: hidden;
+}

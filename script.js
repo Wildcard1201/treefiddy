@@ -18,6 +18,9 @@ function start() {
     if(userNumber) {
         console.log('Starting...')
         document.getElementById('welcome').style.visibility = "hidden"
+        document.getElementById('welcome').style.height = "0"
+        document.getElementById('tracker').style.visibility = "visible"
+
     } else {
         console.log('Please select number of users then press Start again.')
     }
