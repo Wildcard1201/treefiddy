@@ -17,6 +17,7 @@ startButton.addEventListener('click', start)
 function start() {
     if(userNumber) {
         console.log('Starting...')
+        document.getElementById('welcome').style.visibility = "hidden"
     } else {
         console.log('Please select number of users then press Start again.')
     }
