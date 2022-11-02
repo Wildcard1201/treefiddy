@@ -76,4 +76,21 @@ p {
 
 .tracker {
     visibility: hidden;
+
+    display: flex;
+    /* flex-direction: column; */
+
+    height: 100%;
+}
+
+.user {
+    width: 50%;
+}
+
+.user1 {
+    background-color: lightcyan;
+}
+
+.user2 {
+    background-color: lightgoldenrodyellow;
 }
